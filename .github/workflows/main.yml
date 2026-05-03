@@ -30,4 +30,4 @@ jobs:
     - name: Lint with ruff
       # Вызываем ruff и указываем ему,
       # что нужно проверить файлы только в папке backend/
-      run: python -m ruff check backend/
+      run: python -m ruff check backend/ --fix
